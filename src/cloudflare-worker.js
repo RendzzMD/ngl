@@ -5,7 +5,7 @@ const ALLOWED_HOST = 'shadowshahriar.github.io'
 addEventListener('fetch', event => event.respondWith(handleRequest(event.request)))
 
 const sendMessage = async text => {
-	const url = `${TELEGRAM}/bot${BOT_TOKEN}/sendMessage?chat_id=${USER_ID}&text=${text}`
+	const url = `${TELEGRAM}/bot${8118192193:AAFdRAzJVbojfHnOhmov8vDHV0yTZkeQpYk}/sendMessage?chat_id=${7465212178}&text=${text}`
 	const data = await fetch(url).then(resp => resp.json())
 	return data
 }
